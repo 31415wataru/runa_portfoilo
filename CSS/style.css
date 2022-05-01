@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a0d8ef;
+ }
+.topheader{
+    background: url('toppage2.png') top center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    height: 100vh;  
+}
+.toppage_text{
+    color: white;
+    font-size: 50px;
+    margin-left: 5%;
+    border-left: 10px solid;
+    padding-left: 15px;
+}
+.healist_list{
+    
+}
+.header_title{
+    margin-right: auto;
+    margin-left: 15px;
+    color: white;
+}
+.header_text{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 20px;
+    color: white;
+}
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    background-color:rgba(255,255,255,0.3);
+  }
+.home_detail_image img{
+    width: 100%;
+}
+.home_detail_image{
+    width: 25%;
+}
+.home_detail_text{
+    padding-left: 40px;
+}
+.table_main{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.section_main{
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.about_runa_name{
+    font-size: 40px;
+    color: #343434;
+}
+.about_runa{
+    font-size: 20px;
+    color: #343434;
+}
+.section_title{
+    font-size: 30px;
+}
+.histories_year{
+    font-size: 20px;
+    color: #343434;
+    padding-left: 40px;
+}
+.histories_month{
+    font-size: 20px;
+    color: #343434;
+    padding-left: 40px;
+}
+.table_histories td{
+}
+.histories_text{
+    font-size: 20px;
+    margin-left: 50px;
+    color: #a0d8ef;
+}
+.histories_text span{
+    font-size: 20px;
+    color: #343434;
+}
+.histories_image img{
+    width: 80%;
+}
