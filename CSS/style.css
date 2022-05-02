@@ -167,7 +167,7 @@ footer{
     visibility: hidden;
   }
  .spinner{
-    margin: 0 auto;
+    display: inline-block;
  }
 
   
