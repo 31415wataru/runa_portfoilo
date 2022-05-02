@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #a0d8ef;
+    font-family: sans-serif;
  }
 .topheader{
     background: url('toppage2.png') top center / cover no-repeat;
@@ -24,10 +25,13 @@ body {
     margin-left: 15px;
     color: white;
 }
-.header_text{
+.header_text {
     display: inline-block;
     margin-right: 30px;
     font-size: 20px;
+    color: white;
+}
+.header_text a{
     color: white;
 }
 header {
@@ -52,9 +56,10 @@ header {
 }
 .section_main{
     background-color: white;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
     border-radius: 10px;
+    padding-bottom: 35px;
 }
 .about_runa_name{
     font-size: 40px;
@@ -84,10 +89,137 @@ header {
     margin-left: 50px;
     color: #a0d8ef;
 }
+.histories_text a:hover{
+    font-size: 20px;
+    color: #a0d8ef;
+}
 .histories_text span{
     font-size: 20px;
     color: #343434;
 }
-.histories_image img{
-    width: 80%;
+.histories_image_2019{
+    position: relative;
+    left: 50px;
+    width: 50%;
+    height: 25vh;
+    border-radius: 5px;
+    background-image:
+	 linear-gradient(-90deg, white 90%, transparent 90%);
+     opacity: 0.01;
 }
+
+.histories_image_td{
+    
+}
+.histories_image img{
+    display: block;
+    position: absolute;
+    top: -40px;
+    width: 20vw;
+    border-radius: 5px;
+}
+.histories_image{
+    position: relative;
+    left: 50px;
+    width: 21vw;
+    height: 20vh;
+    border-radius: 5px;
+    background-image:
+	 linear-gradient(-90deg, #a0d8ef 90%, transparent 90%);
+}
+.mainlink a{
+    text-decoration: none;
+    color: #a0d8ef;
+    border: 3px solid #a0d8ef;
+    padding: 10px;
+}
+.mainlink a:hover{
+    color: white;
+    background-color: #a0d8ef;
+    border:3px solid #a0d8ef;
+}
+.title img{
+    width: 30%;
+}
+.title_L img{
+    width: 30%;
+}
+
+footer{
+   color: white; 
+   text-align: center;
+   margin-top: 50px;
+}
+/*--------------------------------------------------*/
+#loading {
+    width: 100vw;
+    height: 100vh;
+    transition: all 1s;
+    background-color: #a0d8ef;
+  /* 以下のコードを追加 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+  }
+  .loaded {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .spring-spinner, .spring-spinner * {
+    box-sizing: border-box;
+  }
+
+  .spring-spinner {
+    height: 60px;
+    width: 60px;
+  }
+
+  .spring-spinner .spring-spinner-part {
+    overflow: hidden;
+    height: calc(60px / 2);
+    width: 60px;
+  }
+
+  .spring-spinner  .spring-spinner-part.bottom {
+     transform: rotate(180deg) scale(-1, 1);
+   }
+
+  .spring-spinner .spring-spinner-rotator {
+    width: 60px;
+    height: 60px;
+    border: calc(60px / 7) solid transparent;
+    border-right-color: #ff1d5e;
+    border-top-color: #ff1d5e;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation: spring-spinner-animation 3s ease-in-out infinite;
+    transform: rotate(-200deg);
+  }
+
+  @keyframes spring-spinner-animation {
+    0% {
+      border-width: calc(60px / 7);
+    }
+    25% {
+      border-width: calc(60px / 23.33);
+    }
+    50% {
+      transform: rotate(115deg);
+      border-width: calc(60px / 7);
+    }
+    75% {
+      border-width: calc(60px / 23.33);
+    }
+    100% {
+      border-width: calc(60px / 7);
+    }
+  }
+  @keyframes sk-scaleout {
+    0% {
+      transform: scale(0);
+    } 100% {
+      transform: scale(1.0);
+      opacity: 0;
+    }
+  }

@@ -9,16 +9,27 @@
   <title>Runa Hayami 速水瑠奈ポートフォリオ</title>
   <meta />
 </head>
-<body link="white" vlink="white">
+<body link="#a0d8ef" vlink="#343434">
+  <div id="loading">
+    <div class="spinner">
+      <div class="spring-spinner">
+      <div class="spring-spinner-part top">
+        <div class="spring-spinner-rotator"></div>
+      </div>
+      <div class="spring-spinner-part bottom">
+        <div class="spring-spinner-rotator"></div>
+      </div>
+    </div></div>
+  </div>
   <header>
     <h2 class="header_title">Runa Hayami</h2>
     <ul class="header_list">
-      <li class="header_text">TOP</li>
-      <li class="header_text">HISTORIES</li>
-      <li class="header_text">CONTACT</li>
+      <li class="header_text"><a href="#TOP">TOP</a></li>
+      <li class="header_text"><a href="#HISTORY">HISTORIES</a></li>
+      <li class="header_text"><a href="mailto:runa55359@gmail.com">CONTACT</a></li>
     </ul>
   </header>
-    <div class="topheader">
+    <div class="topheader" id="TOP">
     <h1 class="toppage_text">Runa Hayami<br>University Student</h1>
     </div>
     <br>
@@ -45,9 +56,15 @@
     </table>
     <br>
     <center>
-    <h3 class="section_title">Histories</h3>
+    <table class="title_table" id="HISTORY">
+     <tr>
+      <td class="title_L" align="right"><img src="img/hr.png"></td>
+      <td><h3 class="section_title">Histories</h3></td>
+      <td class="title"><img src="img/hr.png"></td>
+     </tr>
+    </table>
     </center>
-    <table class="table_histories">
+    <table class="table_histories" >
       <tr class="table_2019">
         <td>
         <h5 class="histories_year">2019</h5>
@@ -60,7 +77,7 @@
           <li class="histories_text"><span>立命館守山高校入学</span></li>
         </ul>
         </td>
-        <td class="histories_image"> </td>
+        <td class="histories_image_2019"> </td>
       </tr>
       <tr class="table_2020">
         <td>
@@ -99,7 +116,11 @@
         <li class="histories_text"><span>守山キャリアチャレンジ 参加</span></li>
         </ul>
         </td>
-        <td class="histories_image"> <img src="img/history2020.png"> </td>
+        <td class="histories_image_td"> 
+          <div class="histories_image">
+            <img src="img/history2020.png">
+          </div>
+        </td>
       </tr>
 
       <tr class="table_2021">
@@ -146,7 +167,11 @@
           </span></li>
         </ul>
         </td>
-        <td> </td>
+        <td class="histories_image_td"> 
+          <div class="histories_image">
+            <img src="img/history2021.jpg">
+          </div>
+        </td>
       </tr>
       <tr class="table_2022">
         <td>
@@ -165,8 +190,48 @@
           <li class="histories_text"><span>京都新聞 掲載</span></li>
         </ul>
         </td>
-        <td> </td>
+        <td class="histories_image_td"> 
+          <div class="histories_image">
+            <img src="img/history2022.jpg">
+          </div>
+        </td>
       </tr>
     </table>
+    <center>
+      <table class="title_table">
+        <tr>
+         <td class="title_L" align="right"><img src="img/hr.png"></td>
+         <td><h3 class="section_title">Links</h3></td>
+         <td class="title"><img src="img/hr.png"></td>
+        </tr>
+       </table>
+    </center>
+    <h5 class="histories_year">個人</h5>
+    <ul>
+      <li class="histories_text"><span><a href="https://www.facebook.com/profile.php?id=100069092742047">Facebook</a></span></li>
+    </ul>
+    <h5 class="histories_year">団体</h5>
+    <ul>
+      <li class="histories_text"><span><a href="https://psofficial1006.wixsite.com/homepage">P.Sホームページ</a></span></li>
+      <li class="histories_text"><span><a href="https://www.lapizprivate.com">Rápiz Privateホームページ</a></span></li>
+      <li class="histories_text"><span><a href="https://www.mrc.ritsumei.ac.jp">立命館守山高等学校ホームページ</a></span></li>
+    </ul>
+    <center>
+      <table class="title_table">
+        <tr>
+         <td class="title_L" align="right"><img src="img/hr.png"></td>
+         <td><h3 class="section_title">Contacts</h3></td>
+         <td class="title"><img src="img/hr.png"></td>
+        </tr>
+       </table>
+      <p class="mainlink"><a href="mailto:runa55359@gmail.com">連絡はこちらから</a></p>
+    </center>
     </section>
+    <footer>©All rights reserved by Runa Hayami.</footer>
+    <script>
+    window.onload = function() {
+      const spinner = document.getElementById('loading');
+      spinner.classList.add('loaded');
+    }
+    </script>
 </body>
