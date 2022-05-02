@@ -166,6 +166,11 @@ footer{
     opacity: 0;
     visibility: hidden;
   }
+ .spinner{
+    margin: 0 auto;
+ }
+
+  
   .spring-spinner, .spring-spinner * {
     box-sizing: border-box;
   }
@@ -189,8 +194,8 @@ footer{
     width: 60px;
     height: 60px;
     border: calc(60px / 7) solid transparent;
-    border-right-color: #ff1d5e;
-    border-top-color: #ff1d5e;
+    border-right-color: white;
+    border-top-color: white;
     border-radius: 50%;
     box-sizing: border-box;
     animation: spring-spinner-animation 3s ease-in-out infinite;
@@ -215,6 +220,10 @@ footer{
       border-width: calc(60px / 7);
     }
   }
+
+
+
+
   @keyframes sk-scaleout {
     0% {
       transform: scale(0);
