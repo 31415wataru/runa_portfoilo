@@ -7,6 +7,7 @@ body {
 .topheader{
     background: url('toppage2.png') top center / cover no-repeat;
     display: flex;
+    text-align: center;
     align-items: center;
     height: 100vh;  
 }
