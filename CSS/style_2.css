@@ -7,7 +7,7 @@ table{
     width:100%;
 }
 .top-img {
-    background: url('top-img_2.JPG') top center / cover no-repeat;
+    background: url('top-img_2.jpg') top center / cover no-repeat;
     height: 100vh;  
     display: flex;
     flex-direction: column;
